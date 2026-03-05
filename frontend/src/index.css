@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* ===== LANDING PAGE CUSTOM STYLES ===== */
+
+.nav-link {
+  margin-left: 40px;
+}
+
+#supportHero {
+  background-color: rgb(56, 126, 209);
+  color: white;
+}
+
+#supportHero a {
+  color: white;
+}
+
+#supportWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+
+#supportHero input {
+  padding: 20px 50px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.dropdown-menu p:hover {
+  color: #387ed1;
+  cursor: pointer;
+}
+
+/* ===== UNDERLINE ONLY FOR NORMAL NAV LINKS (NOT DROPDOWN) ===== */
+
+.navbar .nav-link:not(.dropdown-toggle) {
+  position: relative;
+}
+
+.navbar .nav-link:not(.dropdown-toggle)::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #387ed1;
+  left: 0;
+  bottom: -6px;
+  transition: width 0.2s ease;
+}
+
+.navbar .nav-link:not(.dropdown-toggle):hover::after {
+  width: 100%;
+}
+
+/* ===== ACTIVE PAGE (ZERODHA BLUE) ===== */
+
+.active-link {
+  color: #387ed1 !important;
+}
+
+.active-link::after {
+  width: 100%;
+}
+
+.icon {
+  opacity: 0.7;
+}
+
+.footer-links p {
+  color: #1f2a3d;
+  margin-bottom: 12px;
+}
+
+.footer-links.col a {
+  text-decoration: none;
+  color: #6c757d;
+  line-height: 2.1;
+  font-size: 1.02rem;
+}
+
+.footer-links.col a:hover {
+  color: #387ed1;
+}
+
+.footer-social-row {
+  font-size: 26px;
+  align-items: center;
+}
+
+.footer-social-row i {
+  width: 26px;
+  text-align: center;
+  line-height: 1;
+}
+
+.hover {
+  cursor: pointer;
+}
+
+.hover:hover {
+  color: #2b6dbe;
+  opacity: 1;
+}
+
+.col a {
+  text-decoration: none;
+  color: #6c757d;
+  line-height: 35px;
+}
+
+.col a:hover {
+  color: #387ed1;
+}
+
+.text a {
+  text-decoration: none;
+}
+
+.text a:hover {
+  color: black;
+}
+
+.last a {
+  text-decoration: none;
+  color: #6c757d;
+  opacity: 0.8;
+}
+
+.last a:hover {
+  color: #2b6dbe;
+}
+
+.btn.abtn,
+.btn.ABTN {
+  --bs-btn-bg: #2b6dbe;
+  --bs-btn-border-color: #2b6dbe;
+  --bs-btn-hover-bg: #000;
+  --bs-btn-hover-border-color: #000;
+}
+
+.btn.abtn:hover,
+.btn.ABTN:hover {
+  background-color: #000 !important;
+  border-color: #000 !important;
+}
+
+.product-logo {
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.row > div {
+  min-height: 160px;
+}
+
+.btns {
+  background-color: white;
+  color: black;
+}
+
+h4 {
+  font-size: 20px;
+  opacity: 0.8;
+}
+
