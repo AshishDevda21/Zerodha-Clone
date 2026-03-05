@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import axios from "axios";
 import Swal from "sweetalert2";
+import API from "../../dashboard/components/api";
 
 function RightSection() {
   const [validated, setValidated] = useState(false);
@@ -20,7 +20,7 @@ function RightSection() {
       event.stopPropagation();
     } else {
       try {
-        const res = await axios.post("http://localhost:3002/login", formData);
+        const res = await API.post("/login", formData);
 
         localStorage.setItem("token", res.data.token);
         localStorage.setItem("userId", res.data.user?.username || "USERID");
