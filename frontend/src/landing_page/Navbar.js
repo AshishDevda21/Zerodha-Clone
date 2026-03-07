@@ -18,7 +18,7 @@ function Navbar() {
         >
           <img
             src="media/images/logo.svg"
-            style={{ width: "25%" }}
+            className="landing-navbar-logo"
             alt="Logo"
           />
         </NavLink>
@@ -92,7 +92,7 @@ function Navbar() {
               </NavLink>
             </li>
 
-            <li className="nav-item dropdown ms-3">
+            <li className="nav-item dropdown ms-lg-3 mt-3 mt-lg-0">
               <a
                 className="nav-link d-flex align-items-center p-0"
                 href="/#"
@@ -105,11 +105,10 @@ function Navbar() {
               </a>
 
               <div
-                className="dropdown-menu dropdown-menu-end p-4 shadow"
-                style={{ width: "600px" }}
+                className="dropdown-menu dropdown-menu-end p-4 shadow landing-mega-dropdown"
               >
                 <div className="row">
-                  <div className="col-3 text-center">
+                  <div className="col-6 col-md-3 text-center">
                     <img src="media/images/kite-logo.svg" width="40" />
                     <p className="mt-2">
                       Kite
@@ -118,7 +117,7 @@ function Navbar() {
                     </p>
                   </div>
 
-                  <div className="col-3 text-center">
+                  <div className="col-6 col-md-3 text-center">
                     <img src="media/images/console.svg" width="40" />
                     <p className="mt-2">
                       Console
@@ -127,7 +126,7 @@ function Navbar() {
                     </p>
                   </div>
 
-                  <div className="col-3 text-center">
+                  <div className="col-6 col-md-3 text-center">
                     <img src="media/images/kite-connect1.svg" width="40" />
                     <p className="mt-2">
                       Kite Connect
@@ -136,7 +135,7 @@ function Navbar() {
                     </p>
                   </div>
 
-                  <div className="col-3 text-center">
+                  <div className="col-6 col-md-3 text-center">
                     <img src="media/images/coin.svg" width="40" />
                     <p className="mt-2">
                       Coin
@@ -149,19 +148,19 @@ function Navbar() {
                 <hr />
 
                 <div className="row">
-                  <div className="col-4">
+                  <div className="col-12 col-md-4">
                     <h6>Utilities</h6>
                     <p className="mb-1">Brokerage calculator</p>
                     <p className="mb-1">Margin calculator</p>
                   </div>
 
-                  <div className="col-4">
+                  <div className="col-12 col-md-4">
                     <h6>Updates</h6>
                     <p className="mb-1">IPO</p>
                     <p className="mb-1">Markets</p>
                   </div>
 
-                  <div className="col-4">
+                  <div className="col-12 col-md-4">
                     <h6>Education</h6>
                     <p className="mb-1">Varsity</p>
                     <p className="mb-1">Trading Q&A</p>

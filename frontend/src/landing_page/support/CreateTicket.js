@@ -11,8 +11,7 @@ function CreateTicket() {
         <h1 className="fs-2">To create a ticket, select a relevant topic</h1>
 
         <div
-          className="mt-2 mb-2"
-          style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0, 1fr))", gap: "0px" }}
+          className="mt-2 mb-2 support-ticket-grid"
         >
           <div className="p-5" style={columnStyle}>
             <h4>
@@ -94,8 +93,7 @@ function CreateTicket() {
         </div>
 
         <div
-          className="mt-2 mb-2"
-          style={{ display: "grid", gridTemplateColumns: "repeat(3, minmax(0, 1fr))", gap: "0px" }}
+          className="mt-2 mb-2 support-ticket-grid"
         >
           <div className="p-5" style={columnStyle}>
             <h4>

@@ -9,7 +9,7 @@ function Hero() {
         <a href="">Track Tickets</a>
       </div>
       <div className="row p-5 m-3 align-items-start">
-        <div className="col-6 p-3">
+        <div className="col-12 col-lg-6 p-3">
           <h1 className="fs-3">
             Search for an answer or browse help topics to create a ticket
           </h1>
@@ -23,7 +23,7 @@ function Hero() {
           </div>
          
         </div>
-        <div className="col-6 p-3 text ">
+        <div className="col-12 col-lg-6 p-3 text ">
           <h1 className="fs-3">Featured</h1>
           <ol>
             <li>
@@ -37,8 +37,7 @@ function Hero() {
 
          <Link to="/signup" className="d-block text-center">
         <button 
-          className="p-2 btn btn-primary fs-5 mb-5 abtn btns "
-          style={{ width: "20%", margin: "0 auto" }}
+          className="p-2 btn btn-primary fs-5 mb-5 abtn btns responsive-cta"
         >
           My tickets
         </button> 

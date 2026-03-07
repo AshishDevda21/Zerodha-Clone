@@ -5,11 +5,10 @@ function Footer() {
     <footer style={{ backgroundColor: "rgb(250, 250, 250)" }}>
       <div className="container border-top mt-5">
         <div
-          className="mt-5"
-          style={{ display: "grid", gridTemplateColumns: "1.25fr 1fr 1fr 1fr", columnGap: "24px" }}
+          className="mt-5 footer-grid"
         >
           <div className="col footer-brand">
-            <img src="media/images/logo.svg" style={{ width: "50%" }} />
+            <img src="media/images/logo.svg" className="footer-logo img-fluid" />
             <p className="mt-3 text-muted small ">
               &copy; 2010 - 2026, Not Zerodha Broking Ltd. All rights reserved.
             </p>

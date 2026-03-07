@@ -8,7 +8,7 @@ function Hero() {
         <img
           src="media/images/homeHero.png"
           alt="Hero Image"
-          className="mb-5"
+          className="mb-5 img-fluid"
         />
         <h1 className="mt-5 mb-3"  style={{ fontSize: "30px", opacity: "0.8"}}>Invest in everything</h1>
         <p className="mb-5" style={{ fontSize: "22px" }}>
@@ -17,8 +17,7 @@ function Hero() {
         </p>
         <Link to="/signup">
         <button
-          className="p-2 btn btn-primary fs-5 mb-5  abtn"
-          style={{ width: "20%", margin: "0 auto" }}
+          className="p-2 btn btn-primary fs-5 mb-5 abtn responsive-cta"
         >
           Signup Now
         </button>

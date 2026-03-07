@@ -12,8 +12,7 @@ function OpenAccount() {
         </p>
         <Link to="/signup">
         <button 
-          className="p-2 btn btn-primary fs-5 mb-5 abtn"
-          style={{ width: "20%", margin: "0 auto" }}
+          className="p-2 btn btn-primary fs-5 mb-5 abtn responsive-cta"
         >
           Sign up Now
         </button>

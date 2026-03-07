@@ -60,11 +60,11 @@ function LeftSection() {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-6">
-          <img src="media/images/account_open.svg" alt="account" />
+        <div className="col-12 col-lg-6">
+          <img src="media/images/account_open.svg" alt="account" className="img-fluid" />
         </div>
 
-        <div className="col-6 p-5 pt-0">
+        <div className="col-12 col-lg-6 p-5 pt-0">
           <h1 className="mb-3" style={{ fontSize: "30px", opacity: "0.9" }}>
             Signup now
           </h1>
@@ -148,13 +148,13 @@ function LeftSection() {
               </button>
             </form>
 
-            <p className="mt-4">
-              By proceeding, you agree to the Zerodha <a href="#">terms</a> &{" "}
-              <a href="#">privacy policy</a>
+            <p className="mt-4 text">
+              By proceeding, you agree to the Zerodha <a href="">terms</a> &{" "}
+              <a href="">privacy policy</a>
             </p>
 
-            <p className="mt-4">
-              Looking to open NRI account? <a href="#">Click here</a>
+            <p className="mt-4 text">
+              Looking to open NRI account? <a href="">Click here</a>
             </p>
           </div>
         </div>
