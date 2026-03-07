@@ -18,7 +18,7 @@ function LeftSection({
         <div className="col-12 col-lg-6 p-5 mt-lg-5">
           <h1>{productName}</h1>
           <p>{productDesription}</p>
-          <div className="product-links">
+          <div className="product-links text">
             <a href={tryDemo}>Try Demo</a>
             <a href={learnMore} className="product-link-spacer">
               Learn More
